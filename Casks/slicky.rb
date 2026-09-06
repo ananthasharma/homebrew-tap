@@ -16,7 +16,7 @@ cask "slicky" do
   # He updates himself from GitHub releases, so `brew upgrade` leaves him alone
   # unless you ask for it with --greedy.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Slicky.app"
 
